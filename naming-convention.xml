@@ -1,28 +1,32 @@
---PT-BR--
+<link rel="stylesheet" href="main.css">
 
-Utilizaremos a seguinte estrutura na nomeação via DNS:
+<pboldcenter>--PT-BR--</pboldcenter>
+<br><br>
+<pbold>Utilizaremos a seguinte estrutura na nomeação via DNS:</pbold>
 
-[ID do Local].[tipo]-[numeração/implantação].[domínio]
+<center><p>[ID do Local].[tipo]-[numeração/implantação].[domínio]</p></center>
 
-ID do local:
+<pbold>ID do local:</pbold>
 
-se refere ao local onde o equipamento está (EX.: BR01)
+<p>se refere ao local onde o equipamento está (EX.: BR01)</p>
 
-Tipos disponíveis:
+<pbold>Tipos disponíveis:</pbold>
 
-ER - edge router
-DR - distribution router
-AR - access router
-FW - firewall
-PXY - proxy
-CSW - core switch
-DSW - distribution switch
-ASW - access switch
-SRV - servidor
-STG - storage
-NAS - Network attached storage
-XCP - Hypervisor (só utilizamos XCP-ng)
-DCK - Docker
+<p>
+ER - edge router<br>
+DR - distribution router<br>
+AR - access router<br>
+FW - firewall<br>
+PXY - proxy<br>
+CSW - core switch<br>
+DSW - distribution switch<br>
+ASW - access switch<br>
+SRV - servidor<br>
+STG - storage<br>
+NAS - Network attached storage<br>
+XCP - Hypervisor (só utilizamos XCP-ng)<br>
+DCK - Docker<br>
+</p>
 
 Numeração/implantação:
 
