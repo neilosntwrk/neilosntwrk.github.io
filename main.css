@@ -1,0 +1,12 @@
+p {
+    font-family: calibri;
+}
+pbold {
+    font-family: calibri;
+    font-weight: bold;
+}
+pboldcenter {
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+}

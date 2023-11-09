@@ -1,0 +1,81 @@
+--PT-BR--
+
+Utilizaremos a seguinte estrutura na nomeação via DNS:
+
+[ID do Local].[tipo]-[numeração/implantação].[domínio]
+
+ID do local:
+
+se refere ao local onde o equipamento está (EX.: BR01)
+
+Tipos disponíveis:
+
+ER - edge router
+DR - distribution router
+AR - access router
+FW - firewall
+PXY - proxy
+CSW - core switch
+DSW - distribution switch
+ASW - access switch
+SRV - servidor
+STG - storage
+NAS - Network attached storage
+XCP - Hypervisor (só utilizamos XCP-ng)
+DCK - Docker
+
+Numeração/implantação:
+
+Números serão utilizados quando houver mais de um equipamento, ex.:
+
+numa localidade, existem dois DR's redundantes, logo teremos DR-01 e DR-02
+
+o código de implantação pode receber os seguintes valores:
+
+PROD - ambiente em produção 
+LAB - ambiente de testes
+POOL - utilizado quando há uma pool de virtualização
+TEST - teste de servidor ou equipamento
+K8S - utilizado quando há uma pool de contêineres (kubernetes)
+EXT - equipamento ou servidor não pertencente a rede.
+
+--EN--
+
+We will use the following structure when naming via DNS:
+
+[Site ID].[type]-[numbering/deployment].[domain]
+
+Location ID:
+
+refers to the location where the equipment is (EX.: BR01)
+
+Available types:
+
+ER - edge router
+DR - distribution router
+AR - access router
+FW - firewall
+PXY - proxy
+CSW - core switch
+DSW - distribution switch
+ASW - access switch
+SRV - server
+STG - storage
+NAS - Network attached storage
+XCP - Hypervisor (we only use XCP-ng)
+DCK - Docker
+
+Numbering/deployment:
+
+Numbers will be used when there is more than one piece of equipment, e.g.:
+
+In a location, there are two redundant DR's, so we will have DR-01 and DR-02
+
+the deployment code can receive the following values:
+
+PROD - production environment
+LAB - testing environment
+POOL - used when there is a virtualization pool
+TEST - server or equipment testing
+K8S - used when there is a pool of containers (kubernetes)
+EXT - equipment or server not belonging to the network.
